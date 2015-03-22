@@ -13,6 +13,7 @@ Download the code and run the "run.sh" script in a Linux environment. This code 
 I have created a "run.sh" script which will automatically load the python code from the "src" directory. It will then read all text files from "wc_input" directory and then run the analysis and write the output to the files "wc_result.txt" and "med_result.txt" in "wc_output" directory
 
 For any questions, please reach out to me.
-Note: Please delete any text files within wc_input and wc_output folders before you start. This will ensure that you don't use any of my test files.
 
-PS: I also have the same code in R Programming using text mining package, I would be happy to share that as well. 
+Note: Please delete any text files within wc_input and wc_output folders before you start, this will ensure that you don't use any of my test files.
+
+PS: I also have a code in R Programming using text mining package, I would be happy to share that as well. 
