@@ -1,9 +1,6 @@
-import string
-import operator
-import pandas as pd
 import os
 
-path = './downloads/Courseera/insight/python/'
+path = './'
 
 #Input directory
 sub_dir = 'wc_input/'
@@ -68,7 +65,7 @@ def median_count(text_data, wordFreq, punc):
 
 #For each file in the directory, calculate word count and median count
 for filename in os.listdir(file_location):
-    print filename
+    #print filename
     fw1 = open(file_location+filename)
     text_data=fw1.readlines()
     k,l = median_count(text_data,"",punc)
